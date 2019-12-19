@@ -129,7 +129,6 @@ def _scraping(soup, url):
         title = h2.get_text()
         if title:
             title_list.append(title.replace('\n', ' '))
-    print(title_list)  
 
     if len(title_list) > 0:
         join_title = ' '.join(title_list)
