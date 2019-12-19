@@ -149,7 +149,7 @@ def _scraping(soup, url):
                     search_words[index] = None
 
                     print()
-                    print('[URL]: {url}'.format(url=url))
+                    #print('[URL]: {url}'.format(url=url))
                     print('[Hit]: {word}'.format(word=search_word))
                     print('[Original]: {original}'.format(original=m.group()))
                     print('[Date]: {time}'.format(time=datetime.datetime.now()))
