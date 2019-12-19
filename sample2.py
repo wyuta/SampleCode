@@ -97,7 +97,7 @@ def _crawling(url):
             else:
                 request_count = request_count + 1
 
-                #print('[{count}]: {url}'.format(count=request_count, url=url))
+                print('[{count}]: {url}'.format(count=request_count, url=url))
                 _scraping(soup, url)
 
                 if _is_complete():
@@ -149,7 +149,7 @@ def _scraping(soup, url):
                     search_words[index] = None
 
                     print()
-                    #print('[URL]: {url}'.format(url=url))
+                    print('[URL]: {url}'.format(url=url))
                     print('[Hit]: {word}'.format(word=search_word))
                     print('[Original]: {original}'.format(original=m.group()))
                     print('[Date]: {time}'.format(time=datetime.datetime.now()))
