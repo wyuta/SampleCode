@@ -8,6 +8,10 @@ import re
 from bs4 import BeautifulSoup
 
 
+# Result
+# https://github.com/wyuta/SampleCode/blob/master/sample2_result.txt
+
+
 SENTENCE = "Virtue signalling is society's version of Proof of Stake"
 
 
